@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewTopTitle"
+        android:text="Slideshow"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|center"
+        android:textSize="30dp"></TextView>
+
+    <Button android:id="@+id/close"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Exit"
+        android:onClick="onClick" />
+
+    <ImageView
+        android:id="@+id/ImageView3_Left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        ></ImageView>
+</LinearLayout>
